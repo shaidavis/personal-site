@@ -1,5 +1,55 @@
 body {
-	background-color:green;
+	margin: 0px;
+}
+
+
+nav {
+  background-color: #333333;
+  opacity: .7;
+  position: fixed;
+  width: 100%;
+  top: 20px;
+}
+
+nav ul {
+  margin: 0;
+  text-align: center;
+}
+
+
+nav li {
+  display: inline-block;
+}
+
+nav li a { 
+  line-height: 50px;
+  text-decoration: none;
+  color: #FFF;
+  font-family: "open sans", sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0 18px;
+}
+
+
+.hero {
+  background: url(http://i.imgur.com/3ICOrml.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 1200px;
+
+}
+
+.hero-image {
+  padding-top: 100px;
+}
+
+.hero-image img{
+  width: 100%;
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
 }
 
 h1 {
@@ -7,21 +57,24 @@ h1 {
 	color:white;
 	text-shadow: 0px 0px 15px black;
 	text-align: center;
+  font-family: "open sans", sans-serif;
 }
 
 .full-text-block {
 	width:100%;
 	text-align: center;
 	color:white;
-	font-family: sans-serif;
+	font-family: "open sans", sans-serif;
 	font-size: 44px;
+  text-shadow: 2px 2px 3px #100;
 }
 
 .half-text-block {
 	width:50%;
 	text-align: center;
 	color:white;
-	font-family: sans-serif;
+	font-family: "open sans", sans-serif;
 	float:left;
 	font-size: 32px;
+  text-shadow: 2px 2px 3px #100;
 }
