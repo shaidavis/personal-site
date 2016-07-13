@@ -1,5 +1,6 @@
 body {
 	margin: 0px;
+  font-family: "open sans", sans-serif;
 }
 
 
@@ -49,7 +50,7 @@ nav li a {
   padding-top: 100px;
 }
 
-.hero-image img{
+.hero-image img {
   width: 100%;
   max-width: 100px;
   display: block;
@@ -85,13 +86,13 @@ h1 {
 }
 
 
-h1 {
+/*h1 {
   margin: 0;
   font-family: 'Open Sans';
   text-align: center;
   font-weight: bold;
   padding: 25px;
-}
+}*/
 
 h2 {
   margin: 0;
@@ -133,3 +134,84 @@ section {
 .column-inner {
   padding: 20px;
 }
+
+.column-inner-second {
+  background-color: white;
+  padding: 30px;
+}
+
+.column-quarter {
+  float:left;
+  width:25%;
+}
+
+.bio h3{
+  font-family: "merriweather", sans-serif;
+  text-transform: uppercase;
+}
+
+.bio h4{
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+}
+
+.friends img {
+  width: 100%;
+  max-width: 150px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  height:145px;
+}
+
+
+@media (max-width: 700px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.column-70 {
+  width: 70%;
+  float: left;
+  height: 650px;
+  
+}
+
+.column-30 {
+  width: 30%;
+  float: left;
+  
+  
+}
+
+.container:before, .row:before {
+  display: table;
+  content: "";
+}
+
+.container:after, .row:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+@media (max-width: 700px) {
+  .column, .column-30, .column-70, .column-inner {
+    width: 100%;
+    height: inherit;
+  }
+
+  .column-inner {
+    padding:10px;
+  }
+
+  .friends img {
+    width: 145px;
+    height: 145px;
+  }
+
+  .column-quarter {
+    float:left;
+    width:50%;
+  }
